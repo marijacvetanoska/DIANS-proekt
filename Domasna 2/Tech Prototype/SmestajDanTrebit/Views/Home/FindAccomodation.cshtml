@@ -1,0 +1,47 @@
+﻿@using SmestajDanTrebit.Models
+@model IEnumerable<Accomodation>
+
+@{
+    ViewBag.Title = "FindAccomodation";
+}
+
+<h1>Find accomodation in Ohrid</h1>
+
+<br />
+
+@using (Html.BeginForm("Search", "SearchController"))
+{
+    @Html.TextBox("Query")
+    <input type="submit" value="search" />
+}
+
+
+<div class="row">
+
+    @if (Model.Count() > 0)
+    {
+        <hr />
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <th>Name</th>
+            </tr>
+            @foreach (Accomodation accomodation in Model)
+            {
+                if (!accomodation.Name.IsEmpty())
+                {
+                    <tr>
+                        <td>
+                            @Html.ActionLink(accomodation.Name, "ShowInfo", new { id = accomodation.Id })
+
+                            @if (!accomodation.InternationalName.IsEmpty())
+                            {
+                                <span> | @accomodation.InternationalName</span>
+                            }
+                        </td>
+                    </tr>
+                }
+
+            }
+        </table>
+    }
+</div>
