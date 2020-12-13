@@ -50,7 +50,6 @@ namespace SmestajDanTrebit.Controllers
                     db.SaveChanges();
                 }
             }
-
             return View("Index");
         }
 
