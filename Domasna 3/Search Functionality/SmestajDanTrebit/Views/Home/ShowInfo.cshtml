@@ -1,0 +1,18 @@
+﻿@model SmestajDanTrebit.Models.Accomodation
+@{
+    ViewBag.Title = "ShowInfo";
+}
+
+<h2>Showing Info for: @Model.Name</h2>
+
+<h3>@Model.InternationalName</h3>
+<br />
+<h2>Map</h2>
+<br />
+<h3>Longitude: @Model.Longitude </h3>
+<h3>Latitude: @Model.Latitude</h3>
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=20.387878417968754%2C40.898462840536766%2C21.154174804687504%2C41.210171842860014&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+<br /><small><a href="https://www.openstreetmap.org/#map=11/41.0545/20.7710">View Larger Map</a></small>
+<!--&amp;marker=41.054501963290505%2C20.685195922851562-->
+<br />
+@Html.ActionLink("Go back", "FindAccomodation", "Home", new { @class = "btn btn-default" })
