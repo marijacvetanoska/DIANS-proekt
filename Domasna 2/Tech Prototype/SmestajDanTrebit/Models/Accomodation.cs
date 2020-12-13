@@ -14,5 +14,6 @@ namespace SmestajDanTrebit.Models
         public double Latitude { get; set; }
         public String Name { get; set; }
         public String InternationalName { get; set; }
+        public String URL { get; set; }
     }
 }
