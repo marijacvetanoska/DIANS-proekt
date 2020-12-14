@@ -161,6 +161,29 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="App_Data\hotels&amp;apartments.csv" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\img\blank.gif" />
+    <Content Include="Scripts\img\cloud-popup-relative.png" />
+    <Content Include="Scripts\img\drag-rectangle-off.png" />
+    <Content Include="Scripts\img\drag-rectangle-on.png" />
+    <Content Include="Scripts\img\east-mini.png" />
+    <Content Include="Scripts\img\layer-switcher-maximize.png" />
+    <Content Include="Scripts\img\layer-switcher-minimize.png" />
+    <Content Include="Scripts\img\marker-blue.png" />
+    <Content Include="Scripts\img\marker-gold.png" />
+    <Content Include="Scripts\img\marker-green.png" />
+    <Content Include="Scripts\img\marker.png" />
+    <Content Include="Scripts\img\measuring-stick-off.png" />
+    <Content Include="Scripts\img\measuring-stick-on.png" />
+    <Content Include="Scripts\img\north-mini.png" />
+    <Content Include="Scripts\img\panning-hand-off.png" />
+    <Content Include="Scripts\img\panning-hand-on.png" />
+    <Content Include="Scripts\img\slider.png" />
+    <Content Include="Scripts\img\south-mini.png" />
+    <Content Include="Scripts\img\west-mini.png" />
+    <Content Include="Scripts\img\zoom-minus-mini.png" />
+    <Content Include="Scripts\img\zoom-plus-mini.png" />
+    <Content Include="Scripts\img\zoom-world-mini.png" />
+    <Content Include="Scripts\img\zoombar.png" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -171,6 +194,49 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\OpenLayers.js" />
+    <Content Include="Scripts\theme\default\google.css" />
+    <Content Include="Scripts\theme\default\google.tidy.css" />
+    <Content Include="Scripts\theme\default\ie6-style.css" />
+    <Content Include="Scripts\theme\default\ie6-style.tidy.css" />
+    <Content Include="Scripts\theme\default\img\add_point_off.png" />
+    <Content Include="Scripts\theme\default\img\add_point_on.png" />
+    <Content Include="Scripts\theme\default\img\blank.gif" />
+    <Content Include="Scripts\theme\default\img\close.gif" />
+    <Content Include="Scripts\theme\default\img\drag-rectangle-off.png" />
+    <Content Include="Scripts\theme\default\img\drag-rectangle-on.png" />
+    <Content Include="Scripts\theme\default\img\draw_line_off.png" />
+    <Content Include="Scripts\theme\default\img\draw_line_on.png" />
+    <Content Include="Scripts\theme\default\img\draw_point_off.png" />
+    <Content Include="Scripts\theme\default\img\draw_point_on.png" />
+    <Content Include="Scripts\theme\default\img\draw_polygon_off.png" />
+    <Content Include="Scripts\theme\default\img\draw_polygon_on.png" />
+    <Content Include="Scripts\theme\default\img\editing_tool_bar.png" />
+    <Content Include="Scripts\theme\default\img\move_feature_off.png" />
+    <Content Include="Scripts\theme\default\img\move_feature_on.png" />
+    <Content Include="Scripts\theme\default\img\navigation_history.png" />
+    <Content Include="Scripts\theme\default\img\overview_replacement.gif" />
+    <Content Include="Scripts\theme\default\img\pan-panel-NOALPHA.png" />
+    <Content Include="Scripts\theme\default\img\pan-panel.png" />
+    <Content Include="Scripts\theme\default\img\panning-hand-off.png" />
+    <Content Include="Scripts\theme\default\img\panning-hand-on.png" />
+    <Content Include="Scripts\theme\default\img\pan_off.png" />
+    <Content Include="Scripts\theme\default\img\pan_on.png" />
+    <Content Include="Scripts\theme\default\img\remove_point_off.png" />
+    <Content Include="Scripts\theme\default\img\remove_point_on.png" />
+    <Content Include="Scripts\theme\default\img\ruler.png" />
+    <Content Include="Scripts\theme\default\img\save_features_off.png" />
+    <Content Include="Scripts\theme\default\img\save_features_on.png" />
+    <Content Include="Scripts\theme\default\img\view_next_off.png" />
+    <Content Include="Scripts\theme\default\img\view_next_on.png" />
+    <Content Include="Scripts\theme\default\img\view_previous_off.png" />
+    <Content Include="Scripts\theme\default\img\view_previous_on.png" />
+    <Content Include="Scripts\theme\default\img\zoom-panel-NOALPHA.png" />
+    <Content Include="Scripts\theme\default\img\zoom-panel.png" />
+    <Content Include="Scripts\theme\default\style.css" />
+    <Content Include="Scripts\theme\default\style.mobile.css" />
+    <Content Include="Scripts\theme\default\style.mobile.tidy.css" />
+    <Content Include="Scripts\theme\default\style.tidy.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -211,6 +277,7 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
