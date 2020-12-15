@@ -16,9 +16,10 @@ namespace SmestajDanTrebit.Controllers
             return View();
         }
 
-        public ActionResult Search(string search)
+        public ActionResult Search(string text)
         {
-            return View("FindAccomodation", db.accomodations.Where(x => x.Name.ToString().StartsWith(search) || x.Name.ToString() == search).ToList());
+            return View("FindAccomodation", db.accomodations.Where(x => x.Name.ToLower().ToString().StartsWith(text.ToLower()) || x.Name.ToLower().ToString().Contains(text.ToLower()) ||
+             x.InternationalName.ToLower().ToString().StartsWith(text.ToLower()) || x.InternationalName.ToLower().ToString().Contains(text.ToLower())).ToList());
         }
 
         public ActionResult FindAccomodation()
