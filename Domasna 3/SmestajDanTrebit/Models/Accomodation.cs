@@ -17,3 +17,6 @@ namespace SmestajDanTrebit.Models
         public String URL { get; set; }
     }
 }
+
+
+

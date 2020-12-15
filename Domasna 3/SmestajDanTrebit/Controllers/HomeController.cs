@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,15 +11,19 @@ namespace SmestajDanTrebit.Controllers
     public class HomeController : Controller
     {
         AccomodationContext db = new AccomodationContext();
-
         public ActionResult Index()
         {
             return View();
         }
-        
+
+        public ActionResult Search(string search)
+        {
+            return View("FindAccomodation", db.accomodations.Where(x => x.Name.ToLower().ToString().Contains(search.ToLower()) || x.InternationalName.ToLower().ToString().Contains(search.ToLower())));
+        }
+
         public ActionResult FindAccomodation()
         {
-            return View(db.accomodations.ToList());
+               return View(db.accomodations.ToList());
         }
 
         public ActionResult PlacesToVisit()
@@ -50,6 +54,7 @@ namespace SmestajDanTrebit.Controllers
                     db.SaveChanges();
                 }
             }
+
             return View("Index");
         }
 
