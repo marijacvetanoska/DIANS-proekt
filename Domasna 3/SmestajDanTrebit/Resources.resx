@@ -120,6 +120,9 @@
   <data name="About" xml:space="preserve">
     <value>About</value>
   </data>
+  <data name="Anticki" xml:space="preserve">
+    <value>Ancient Theatre Ohrid</value>
+  </data>
   <data name="Contact" xml:space="preserve">
     <value>Contact</value>
   </data>
@@ -144,6 +147,9 @@
   <data name="Intro3" xml:space="preserve">
     <value>Enjoy your stay in this beautiful city!</value>
   </data>
+  <data name="Kaneo" xml:space="preserve">
+    <value>Church Sv. Jovan Kaneo</value>
+  </data>
   <data name="Language" xml:space="preserve">
     <value>Language</value>
   </data>
@@ -159,7 +165,13 @@
   <data name="ShowInfo" xml:space="preserve">
     <value>Show Info</value>
   </data>
+  <data name="Sv Naum" xml:space="preserve">
+    <value>Monastery Sv. Naum of Ohrid</value>
+  </data>
   <data name="Welcome to our page" xml:space="preserve">
     <value>Welcome to our page!</value>
+  </data>
+  <data name="Zaliv" xml:space="preserve">
+    <value>Museum "Bay of Bones"</value>
   </data>
 </root>

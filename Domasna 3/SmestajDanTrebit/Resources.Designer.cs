@@ -70,6 +70,15 @@ namespace SmestajDanTrebit {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ancient Theatre Ohrid.
+        /// </summary>
+        public static string Anticki {
+            get {
+                return ResourceManager.GetString("Anticki", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Contact.
         /// </summary>
         public static string Contact {
@@ -142,6 +151,15 @@ namespace SmestajDanTrebit {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Church Sv. Jovan Kaneo.
+        /// </summary>
+        public static string Kaneo {
+            get {
+                return ResourceManager.GetString("Kaneo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Language.
         /// </summary>
         public static string Language {
@@ -187,11 +205,29 @@ namespace SmestajDanTrebit {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Monastery Sv. Naum of Ohrid.
+        /// </summary>
+        public static string Sv_Naum {
+            get {
+                return ResourceManager.GetString("Sv Naum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Welcome to our page!.
         /// </summary>
         public static string Welcome_to_our_page {
             get {
                 return ResourceManager.GetString("Welcome to our page", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Museum &quot;Bay of Bones&quot;.
+        /// </summary>
+        public static string Zaliv {
+            get {
+                return ResourceManager.GetString("Zaliv", resourceCulture);
             }
         }
     }
