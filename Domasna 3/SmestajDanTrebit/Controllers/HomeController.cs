@@ -5,13 +5,15 @@ using System.Web;
 using System.Web.Mvc;
 using System.IO;
 using SmestajDanTrebit.Models;
+using System.Threading;
+using System.Globalization;
 
 namespace SmestajDanTrebit.Controllers
 {
     public class HomeController : Controller
     {
         AccomodationContext db = new AccomodationContext();
-        public ActionResult Index()
+        public ActionResult Index(String Language)
         {
             return View();
         }

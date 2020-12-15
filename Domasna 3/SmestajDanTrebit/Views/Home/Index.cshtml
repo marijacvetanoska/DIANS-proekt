@@ -2,15 +2,15 @@
     ViewBag.Title = "Home Page";
 } 
 
-<h2>Welcome to our page!</h2>
+<h2>@Resources.Welcome_to_our_page</h2>
 <br />
-<h5>Here, you can find information on different hotels and apartments you can book for your stay in Ohrid</h5>
-<h5>Also, see the places recommended by us that you should visit on your trip here</h5>
+<h5>@Resources.Intro1</h5>
+<h5>@Resources.Intro2</h5>
 <br />
-<h3>Enjoy your stay in this beautiful city!</h3>
+<h3>@Resources.Intro3</h3>
 <br />
 <br />
 
-@Html.ActionLink("Find accomodation in Ohrid", "FindAccomodation", "Home")
+@Html.ActionLink(Resources.Find_accomodation_in_Ohrid, "FindAccomodation", "Home")
 <br />
-@Html.ActionLink("Places to visit", "PlacesToVisit", "Home")
+@Html.ActionLink(Resources.PlacesToVisit, "PlacesToVisit", "Home")

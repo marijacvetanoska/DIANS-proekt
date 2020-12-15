@@ -512,7 +512,7 @@ D:\Find-accomodation-in-Ohrid\Domasna 3\SmestajDanTrebit\obj\Debug\FindAccomodat
 D:\Find-accomodation-in-Ohrid\Domasna 3\SmestajDanTrebit\obj\Debug\FindAccomodationInOhrid.csproj.CopyComplete
 D:\Find-accomodation-in-Ohrid\Domasna 3\SmestajDanTrebit\obj\Debug\SmestajDanTrebit.dll
 D:\Find-accomodation-in-Ohrid\Domasna 3\SmestajDanTrebit\obj\Debug\SmestajDanTrebit.pdb
-D:\Find-accomodation-in-Ohrid\Domasna 3\SmestajDanTrebit\obj\Debug\SmestajDanTrebit.Home.resources
-D:\Find-accomodation-in-Ohrid\Domasna 3\SmestajDanTrebit\obj\Debug\SmestajDanTrebit.Home.mk.resources
 D:\Find-accomodation-in-Ohrid\Domasna 3\SmestajDanTrebit\bin\mk\SmestajDanTrebit.resources.dll
 D:\Find-accomodation-in-Ohrid\Domasna 3\SmestajDanTrebit\obj\Debug\mk\SmestajDanTrebit.resources.dll
+D:\Find-accomodation-in-Ohrid\Domasna 3\SmestajDanTrebit\obj\Debug\SmestajDanTrebit.Resources.resources
+D:\Find-accomodation-in-Ohrid\Domasna 3\SmestajDanTrebit\obj\Debug\SmestajDanTrebit.Resources.mk.resources
