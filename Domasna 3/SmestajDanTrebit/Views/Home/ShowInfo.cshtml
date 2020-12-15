@@ -3,16 +3,16 @@
     ViewBag.Title = "ShowInfo";
 }
 
-<h2>Showing Info for: @Model.Name</h2>
+<h2>@Resources.Showing_info_for: @Model.Name</h2>
 <br />
-<a href="@Model.URL" class="btn btn-default" target="_blank">Click here to go to the Web Site</a>
+<a href="@Model.URL" class="btn btn-default" target="_blank">@Resources.Web_site</a>
 <h3>@Model.InternationalName</h3>
 <br />
-<h2>Map</h2>
+<h2>@Resources.Map</h2>
 <br />
 <div id="demoMap" style="height:350px"></div>
 <br />
-@Html.ActionLink("Go back", "FindAccomodation", "Home", new { @class = "btn btn-default" })
+@Html.ActionLink(Resources.Go_back, "FindAccomodation", "Home", new { @class = "btn btn-default" })
 
 @section Scripts {
 

@@ -106,6 +106,15 @@ namespace SmestajDanTrebit {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Go back.
+        /// </summary>
+        public static string Go_back {
+            get {
+                return ResourceManager.GetString("Go back", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
         public static string Home {
@@ -169,6 +178,15 @@ namespace SmestajDanTrebit {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Map.
+        /// </summary>
+        public static string Map {
+            get {
+                return ResourceManager.GetString("Map", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Name.
         /// </summary>
         public static string Name {
@@ -205,11 +223,29 @@ namespace SmestajDanTrebit {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Showing info for.
+        /// </summary>
+        public static string Showing_info_for {
+            get {
+                return ResourceManager.GetString("Showing info for", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Monastery Sv. Naum of Ohrid.
         /// </summary>
         public static string Sv_Naum {
             get {
                 return ResourceManager.GetString("Sv Naum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Web site.
+        /// </summary>
+        public static string Web_site {
+            get {
+                return ResourceManager.GetString("Web site", resourceCulture);
             }
         }
         

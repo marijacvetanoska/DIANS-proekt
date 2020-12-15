@@ -132,6 +132,9 @@
   <data name="FindAccomodation" xml:space="preserve">
     <value>Пронајди сместување</value>
   </data>
+  <data name="Go back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Дома</value>
   </data>
@@ -153,6 +156,9 @@
   <data name="Language" xml:space="preserve">
     <value>Јазик</value>
   </data>
+  <data name="Map" xml:space="preserve">
+    <value>Мапа</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>Име</value>
   </data>
@@ -165,8 +171,14 @@
   <data name="ShowInfo" xml:space="preserve">
     <value>Прикажи информации</value>
   </data>
+  <data name="Showing info for" xml:space="preserve">
+    <value>Прикажување информации за</value>
+  </data>
   <data name="Sv Naum" xml:space="preserve">
     <value> Манастир Св. Наум Охридски</value>
+  </data>
+  <data name="Web site" xml:space="preserve">
+    <value>Веб сајт</value>
   </data>
   <data name="Welcome to our page" xml:space="preserve">
     <value>Добредојдовте на нашата страна!</value>
