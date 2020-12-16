@@ -16,13 +16,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Find Accomodation in Ohrid", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink(Resources.Find_accomodation_in_Ohrid, "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Find Accomodation", "FindAccomodation", "Home")</li>
-                    <li>@Html.ActionLink("Places to Visit", "PlacesToVisit", "Home")</li>
+                    <li>@Html.ActionLink(Resources.Home, "Index", "Home")</li>
+                    <li>@Html.ActionLink(Resources.FindAccomodation, "FindAccomodation", "Home")</li>
+                    <li>@Html.ActionLink(Resources.PlacesToVisit, "PlacesToVisit", "Home")</li>
+                    <li>@Html.ActionLink(Resources.Language, "Change", "Language", new { LanguageAbbrevation = "en" }, null)</li>
                 </ul>
             </div>
         </div>

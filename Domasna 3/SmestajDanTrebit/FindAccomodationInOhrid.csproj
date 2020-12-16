@@ -128,8 +128,14 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LanguageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Resources.mk.Designer.cs">
+      <DependentUpon>Resources.mk.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="Migrations\202012032049463_initial.cs" />
     <Compile Include="Migrations\202012032049463_initial.designer.cs">
@@ -143,6 +149,11 @@
     <Compile Include="Models\Accomodation.cs" />
     <Compile Include="Models\AccomodationContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\DefaultConnection.mdf" />
@@ -255,13 +266,22 @@
     <Content Include="Views\Home\ShowInfo.cshtml" />
     <Content Include="Views\Home\FindAccomodation.cshtml" />
     <Content Include="Views\Home\PlacesToVisit.cshtml" />
+    <Content Include="Views\Language\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources.mk.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.mk.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202012032049463_initial.resx">
       <DependentUpon>202012032049463_initial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202012131134268_migrationURL.resx">
       <DependentUpon>202012131134268_migrationURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

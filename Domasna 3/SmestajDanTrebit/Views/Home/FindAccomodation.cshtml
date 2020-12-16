@@ -5,14 +5,14 @@
     ViewBag.Title = "FindAccomodation";
 }
 
-<h1>Find accomodation in Ohrid</h1>
+<h2>@Resources.Find_accomodation_in_Ohrid</h2>
 
 <br />
 
 @using (Html.BeginForm("Search", "Home"))
 {
     @Html.TextBox("search")
-    <input type="submit" value="search" />
+    <input type="submit" value="@Resources.Search" />
 }
 
 
@@ -23,7 +23,7 @@
         <hr />
         <table cellpadding="0" cellspacing="0">
             <tr>
-                <th>Name</th>
+                <th>@Resources.Name</th>
             </tr>
             @foreach (Accomodation accomodation in Model)
             {
