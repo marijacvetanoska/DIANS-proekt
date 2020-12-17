@@ -1,4 +1,5 @@
 ﻿@using SmestajDanTrebit.Models
+@using System.Device
 @model IEnumerable<Accomodation>
 
 @{
@@ -29,6 +30,8 @@
             {
                 if (!accomodation.Name.IsEmpty())
                 {
+                    var centar = new GeoCoordinatePortable.GeoCoordinate(41.11276, 20.79924);
+                    var accomodationCoordinates = new GeoCoordinatePortable.GeoCoordinate(accomodation.Latitude, accomodation.Longitude);
                     <tr>
                         <td>
                             @if (HttpContext.Current.Request.Cookies["Language"].Value == "en")
@@ -39,6 +42,10 @@
                             {
                                 @Html.ActionLink(accomodation.Name, "ShowInfo", new { id = accomodation.Id })
                             }
+                        </td>
+                        <td>
+                            <span>@string.Format("Distance to center: {0:F1} km", Convert.ToDouble(centar.GetDistanceTo(accomodationCoordinates) / 1000.0))</span>
+                            <!--Mene mi stojt so crveno metodana ama pak rabotat se-Miha-->
                         </td>
                     </tr>
                 }
