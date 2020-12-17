@@ -20,23 +20,21 @@
     <script>
         map = new OpenLayers.Map("demoMap");
         map.addLayer(new OpenLayers.Layer.OSM());
+        var lon = "@Model.Longitude";
+        var lat = "@Model.Latitude";
 
-        var lon = @Model.Longitude;
-        var lat = @Model.Latitude;
+        var longitude = lon.toString().replace(",", ".");
+        var latitude = lat.toString().replace(",", ".");
 
-        var lonLat = new OpenLayers.LonLat(lon, lat)
+        var lonLat = new OpenLayers.LonLat(parseFloat(longitude), parseFloat(latitude))
             .transform(
                 new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
                 map.getProjectionObject() // to Spherical Mercator Projection
             );
-
         var zoom = 15;
-
         var markers = new OpenLayers.Layer.Markers("Markers");
         map.addLayer(markers);
-
         markers.addMarker(new OpenLayers.Marker(lonLat));
-
         map.setCenter(lonLat, zoom);
     </script>
 }
