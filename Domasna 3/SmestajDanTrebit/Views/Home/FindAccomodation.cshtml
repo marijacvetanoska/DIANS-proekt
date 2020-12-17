@@ -31,11 +31,13 @@
                 {
                     <tr>
                         <td>
-                            @Html.ActionLink(accomodation.Name, "ShowInfo", new { id = accomodation.Id })
-
-                            @if (!accomodation.InternationalName.IsEmpty())
+                            @if (HttpContext.Current.Request.Cookies["Language"].Value == "en")
                             {
-                                <span> | @accomodation.InternationalName</span>
+                                @Html.ActionLink(accomodation.InternationalName, "ShowInfo", new { id = accomodation.Id })
+                            }
+                            @if (HttpContext.Current.Request.Cookies["Language"].Value == "mk")
+                            {
+                                @Html.ActionLink(accomodation.Name, "ShowInfo", new { id = accomodation.Id })
                             }
                         </td>
                     </tr>
