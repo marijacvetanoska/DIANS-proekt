@@ -34,11 +34,15 @@
                     var accomodationCoordinates = new GeoCoordinatePortable.GeoCoordinate(accomodation.Latitude, accomodation.Longitude);
                     <tr>
                         <td>
-                            @if (HttpContext.Current.Request.Cookies["Language"].Value == "en")
+                            @if (HttpContext.Current.Request.Cookies["Language"] == null)
                             {
                                 @Html.ActionLink(accomodation.InternationalName, "ShowInfo", new { id = accomodation.Id })
                             }
-                            @if (HttpContext.Current.Request.Cookies["Language"].Value == "mk")
+                            else if (HttpContext.Current.Request.Cookies["Language"].Value == "en")
+                            {
+                                @Html.ActionLink(accomodation.InternationalName, "ShowInfo", new { id = accomodation.Id })
+                            }
+                            else
                             {
                                 @Html.ActionLink(accomodation.Name, "ShowInfo", new { id = accomodation.Id })
                             }
