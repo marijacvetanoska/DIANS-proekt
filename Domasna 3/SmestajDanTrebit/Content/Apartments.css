@@ -1,0 +1,110 @@
+ body{
+
+            font-style: oblique;
+        }
+
+        .pagination{
+		
+	    position: relative;
+	    padding-left:500px;
+            width:100%;
+            text-align: center;
+            display: inline-block;
+            margin: auto;
+            border-radius: 4px;
+            display: inline-block;
+
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        .pagination a.active {
+            background-color: #A66C6C;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+
+        .prebaruvanje{
+            text-align:center;
+            background: white;
+            width: 300px;
+            height: 500px;
+            display: inline-block;
+
+            margin-right: 35px;
+            border: 1px solid black;
+            padding-top: 50px;
+            margin-top: 100px;
+
+        }
+        .prebaruvanje h1{
+
+            background-color: #A66C6C;
+             margin-top: -50px;
+            margin-right:-1px;
+            text-align: center;
+            color: white;
+        }
+        .prebaruvanje h2,h3, h5,p1,p2{
+
+           color:#A66C6C;
+        }
+        .prebaruvanje h3{
+            text-align: center;
+        }
+        #reon_sch option{
+            text-align-last: center;
+        }
+        .Apartment {
+
+            float: left;
+            border: 1px solid black;
+            width: 1000px;
+            height: 200px;
+            background-color:#E1C4b1;
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+            display: inline-block;
+            margin-right: 20px;
+            margin-top: 5px;
+
+        }
+
+        .Apartment h1{
+            color: #A66C6C;
+        }
+        .Apartment h3{
+            color: black;
+        }
+        .details1{
+             position: static;
+            margin-top: -600px;
+
+        }
+
+        img{
+            float: left;
+            display: block;
+            margin-left: auto;
+            margin-bottom: auto;
+            margin-top: auto;
+            margin-right: 20px;
+        }
+       h1,h3{
+           text-align: justify;
+           margin-top: auto;
+           margin-left: auto;
+
+       }

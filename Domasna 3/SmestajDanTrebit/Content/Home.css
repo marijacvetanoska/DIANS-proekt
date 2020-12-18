@@ -1,0 +1,64 @@
+body {
+    font-style: normal;
+    font-family: Verdana, Helvetica, sans-serif;
+    background-color: #E1C4b1;
+    margin: auto;
+    width: 100%;
+}
+#container{
+    width: 1540px;
+    margin: auto;
+    display: block;
+    height: 100%;
+}
+#intro{
+    width: 1540px;
+    height: 55px;
+    background-color: #A66C6C;
+    margin-top: -17px;
+    padding-top: 8px;
+}
+#intro ul {
+    margin-left: 35px;
+    color: white;
+}
+#intro li{
+    padding-right: 80px;
+    float:left;
+    list-style-type: circle;
+}
+
+#intro a{
+    color: white;
+    font-size: 20px;
+}
+.poddrska a{
+    color: white;
+    display: inline-block;
+}
+.poddrska{
+    float: right;
+    margin-right: 70px;
+}
+.poddrska a{
+    margin-right: 10px;
+}
+.poddrska input{
+    width: 200px;
+}
+.sliki img{
+    width: 1540px;
+    height: 100%;
+    border-radius: 20px;
+}
+.kraj{
+    margin-left: 210px;
+    margin-top: -80px;
+
+
+}
+.kraj img{
+    border-radius: 20px;
+    margin-right: 90px;
+}
+

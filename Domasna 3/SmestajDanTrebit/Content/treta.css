@@ -1,0 +1,199 @@
+body{
+  font-style: oblique;
+    background-color: #E1C4b1;
+    margin: auto;
+    width: 100%;
+
+}
+#container{
+    width: 1540px;
+    margin: auto;
+    display: block;
+    height: 100%;
+}
+#intro{
+    width: 1540px;
+    height: 55px;
+    background-color: #A66C6C;
+    margin-top: -17px;
+    padding-top: 8px;
+}
+#intro ul {
+    margin-left: 35px;
+    color: white;
+}
+#intro li{
+    padding-right: 80px;
+    float:left;
+    list-style-type: circle;
+}
+
+#intro a:hover{
+    color: white;
+    font-size: 25px;
+}
+#intro a{
+    color: white;
+    font-size: 20px;
+}
+.poddrska a{
+    color: white;
+    display: inline-block;
+}
+.poddrska{
+    float: right;
+    margin-right: 100px;
+}
+.poddrska a{
+    margin-right: 10px;
+}
+.poddrska input{
+    width: 230px;
+}
+#vtordel {
+    height: 55px;
+    width: 1540px;
+    background: #E1C4b1;
+
+}
+#vtordelh1 h1{
+    margin-left: 40px;
+    padding-right: 220px;
+    color: #A66C6C;
+    height: 55px;
+    text-decoration: underline;
+    font-style:italic;
+    font-weight: bold;
+    float: left;
+}
+#pagination a{
+    color: #A66C6C;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+}
+#pagination{
+    height: 55px;
+    padding-top: 23px;
+}
+#pagination a.active{
+    background-color: #A66C6C;
+    color: white;
+}
+#pagination a:hover:not(.active){
+    background-color: #ddd;
+}
+#tretdel #levo{
+    width: 1150px;
+    height: 190px;
+    background: white;
+    margin: 0;
+    float: left;
+    border-style: groove;
+}
+#tretdel #levo h2{
+    font-size: 22px;
+    color: #A66C6C;
+    font-weight: bold;
+    font-style: italic;
+}
+#tretdel #levo p{
+    font-size: 18px;
+    color: #A66C6C;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: -15px;
+}
+#tretdel #desno {
+    float: right;
+    width: 320px;
+    height: 190px;
+    margin-right: 40px;
+}
+#tretdel #desno img{
+    width: 320px;
+    height: 190px;
+}
+#tretdel{
+    width: 1540px;
+    height: 190px;
+    margin-left: 0px;
+}
+#cetvrtdel{
+    width: 1540px;
+    height: 190px;
+}
+#cetvrtdel #desno{
+    float:right;
+    width: 1150px;
+    height: 190px;
+    background: white;
+    margin-top: -130px;
+    margin-right: 20px;
+    border-style: groove;
+
+}
+#cetvrtdel #desno h2{
+    font-size: 22px;
+    color: #A66C6C;
+    font-weight: bold;
+    font-style: italic;
+}
+#cetvrtdel #desno p{
+    font-size: 18px;
+    color: #A66C6C;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: -15px;
+}
+#cetvrtdel #levo{
+    width: 320px;
+    height: 190px;
+    margin-right: 40px;
+}
+#cetvrtdel #levo img{
+    width: 320px;
+    height: 190px;
+    margin-left: 17px;
+    margin-top: 11px;
+}
+
+#pettidel #levo{
+    width: 1150px;
+    height: 190px;
+    background: white;
+    margin: 0;
+    float: left;
+    border-style: groove;
+    margin-top: 14px;
+}
+#pettidel #levo h2{
+    font-size: 22px;
+    color: #A66C6C;
+    font-weight: bold;
+    font-style: italic;
+}
+#pettidel #levo p{
+    font-size: 18px;
+    color: #A66C6C;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: -15px;
+}
+#pettidel #desno {
+    float: right;
+    width: 320px;
+    height: 190px;
+    margin-right: 40px;
+    margin-top: 14px;
+}
+#pettidel #desno img{
+    width: 320px;
+    height: 190px;
+}
+#pettidel{
+    width: 1540px;
+    height: 190px;
+    margin-left: 0px;
+}

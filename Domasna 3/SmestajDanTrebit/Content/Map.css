@@ -1,0 +1,74 @@
+body{
+  font-style: oblique;
+    background-color: #E1C4b1;
+    margin: auto;
+    width: 100%;
+
+}
+#container{
+    width: 1540px;
+    margin: auto;
+    display: block;
+    height: 100%;
+}
+#intro{
+    width: 1540px;
+    height: 55px;
+    background-color: #A66C6C;
+    margin-top: -17px;
+    padding-top: 8px;
+}
+#intro ul {
+    margin-left: 35px;
+    color: white;
+}
+#intro li{
+    padding-right: 80px;
+    float:left;
+    list-style-type: circle;
+}
+
+#intro a:hover{
+    color: white;
+    font-size: 25px;
+}
+#intro a{
+    color: white;
+    font-size: 20px;
+}
+.poddrska a{
+    color: white;
+    display: inline-block;
+}
+.poddrska{
+    float: right;
+    margin-right: 100px;
+}
+.poddrska a{
+    margin-right: 10px;
+}
+.poddrska input{
+    width: 230px;
+}
+
+.search {
+    float: right;
+    width: 250px;
+    height: 70px;
+    margin-top: 250px;
+    margin-right: 120px;
+
+}
+
+.search input{
+    color: #A66C6C;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.slika{
+    margin-top: 100px;
+}
