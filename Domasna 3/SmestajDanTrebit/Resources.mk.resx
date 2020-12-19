@@ -169,6 +169,9 @@
     <value>Јазик</value>
   </data>
   <data name="Map" xml:space="preserve">
+    <value>Локација</value>
+  </data>
+  <data name="Mapa" xml:space="preserve">
     <value>Мапа</value>
   </data>
   <data name="Name" xml:space="preserve">
@@ -246,7 +249,7 @@
  ја најдете на задниот дел од банкнотата од 1000ден.</value>
   </data>
   <data name="Web site" xml:space="preserve">
-    <value>Веб сајт</value>
+    <value>Погледнете ја нивната страна / резервирајте </value>
   </data>
   <data name="Welcome to our page" xml:space="preserve">
     <value>Добредојдовте на нашата страна!</value>

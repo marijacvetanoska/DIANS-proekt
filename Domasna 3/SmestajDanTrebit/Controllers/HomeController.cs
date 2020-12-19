@@ -66,7 +66,10 @@ namespace SmestajDanTrebit.Controllers
         }
 
 
-
+        public ActionResult Map()
+        {
+            return View();
+        }
     }
 
 

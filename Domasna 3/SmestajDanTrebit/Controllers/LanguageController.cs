@@ -26,7 +26,7 @@ namespace SmestajDanTrebit.Controllers
             HttpCookie cookie = new HttpCookie("Language");
             cookie.Value = LanguageAbbrevation;
             Response.Cookies.Add(cookie);
-            return View("Index");
+            return RedirectToAction("Index", "Home");
         }
     }
 }
