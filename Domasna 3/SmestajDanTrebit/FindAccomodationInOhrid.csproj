@@ -531,8 +531,6 @@
     <Content Include="Views\Home\FindAccomodation.cshtml" />
     <Content Include="Views\Home\PlacesToVisit.cshtml" />
     <Content Include="Views\Language\Index.cshtml" />
-    <Content Include="Views\Home\PlacesToVisit2.cshtml" />
-    <Content Include="Views\Home\PlacesToVisit3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources.mk.resx">
