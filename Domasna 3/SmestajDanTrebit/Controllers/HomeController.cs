@@ -33,6 +33,11 @@ namespace SmestajDanTrebit.Controllers
             return View();
         }
 
+        public ActionResult PlacesToVisit2()
+        {
+            return View("~/Home/PlacesToVisit2");
+        }
+
         public ActionResult saveToDatabase()
         {
             string filePath = "~/App_Data/hotels&apartments.csv";
