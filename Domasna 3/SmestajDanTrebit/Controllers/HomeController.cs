@@ -13,7 +13,7 @@ namespace SmestajDanTrebit.Controllers
     public class HomeController : Controller
     {
         AccomodationContext db = new AccomodationContext();
-        public ActionResult Index(String Language)
+        public ActionResult Index()
         {
             return View();
         }
@@ -35,7 +35,7 @@ namespace SmestajDanTrebit.Controllers
 
         public ActionResult PlacesToVisit2()
         {
-            return View("~/Home/PlacesToVisit2");
+            return View();
         }
 
         public ActionResult saveToDatabase()
