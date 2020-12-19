@@ -79,6 +79,15 @@ namespace SmestajDanTrebit {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dating from around 200BC, the remains of this spectacular outdoor theatre laid buried and forgotten for centuries before being discovered completely by accident in the 1980s. Nowadays the former location of gladiator battles and murdering Christians is used for less violent affairs and is a popular location for all manner of theatrical and musical performances during the summer..
+        /// </summary>
+        public static string AntickiDesc {
+            get {
+                return ResourceManager.GetString("AntickiDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Contact.
         /// </summary>
         public static string Contact {
@@ -169,6 +178,15 @@ namespace SmestajDanTrebit {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Fusing together Byzantine and Armenian architectural church styles and almost as famous for its location as for the building itself, the date of construction of this particular masterpiece has been lost to history, although surviving documents suggest it’s been standing on the edge of the cliff overlooking the lake since at least 1447. The unusual exterior stone carvings create a good excuse to follow the track around the water to find the place and the frescos painted on the dome, hidden until 1964, are we [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string KaneoDesc {
+            get {
+                return ResourceManager.GetString("KaneoDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Language.
         /// </summary>
         public static string Language {
@@ -196,11 +214,83 @@ namespace SmestajDanTrebit {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Church of the Holy Mary Perybleptos.
+        /// </summary>
+        public static string Perivlepta {
+            get {
+                return ResourceManager.GetString("Perivlepta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One of the oldest churches in Ohrid, this magnificent structure was built in 1295 and is particularly interesting for the frescos that lie within. Among the many outstanding works painted here are originals by Michael Astrapas and Eutychios, 13th-century painters from Thessaloniki whose signed works literally take your breath away. Known to many locals as the Macedonian Sistine Chapel due to the amazing images on the domed ceiling, the church is also home to small collection of black and white photographs d [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string PerivleptaDesc {
+            get {
+                return ResourceManager.GetString("PerivleptaDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Places to visit.
         /// </summary>
         public static string PlacesToVisit {
             get {
                 return ResourceManager.GetString("PlacesToVisit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Church of Saint Clement &amp; Pantelejmon.
+        /// </summary>
+        public static string Plaosnik {
+            get {
+                return ResourceManager.GetString("Plaosnik", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A Byzantine beauty whose precise origins are shrouded in mystery and that’s thought to have been built on the site where the Glagolitic script, the forerunner to today’s Cyrillic script, was created and that some people say was designed by St. Clement of Ohrid (840-916) himself. Briefly converted into a mosque by the Ottomans during the 15th century, unlike many similar churches the magic surrounding this place isn’t so much about its architectural splendour or what treats lie waiting inside but has much mo [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string PlaosnikDesc {
+            get {
+                return ResourceManager.GetString("PlaosnikDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Robevi Family House.
+        /// </summary>
+        public static string Robevci {
+            get {
+                return ResourceManager.GetString("Robevci", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Housed inside the fine old house built in 1864 that gives the place its name and that’s been protected as a building of significant cultural and historical importance since the end of the Second World War, this fascinating museum on three floors features many wonderful examples of ancient statues and other stone monuments collected during archaeological expeditions in the region over the last century or so including a carved torso of the Goddess Isis dating from the 2nd century BC and an ancient gold burial [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string RobevciDesc {
+            get {
+                return ResourceManager.GetString("RobevciDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tsar Samuel (?-1014) is a controversial figure in modern Macedonia and his fortress overlooking the town is another of the town’s buildings shrouded in myth and mystery. Believed to have been constructed on a much earlier fortress dating from the 4th century BC, little remains of this once grand stronghold with the exception of the remaining outer wall structures, a few watch towers and four original gates. Despite the fortress being in a relative bad condition, the small entrance fee to get inside is worth [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string SamiulovaDesc {
+            get {
+                return ResourceManager.GetString("SamiulovaDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Samuel’s Fortress.
+        /// </summary>
+        public static string Samuilova {
+            get {
+                return ResourceManager.GetString("Samuilova", resourceCulture);
             }
         }
         
@@ -241,6 +331,33 @@ namespace SmestajDanTrebit {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Boasting some of the most extraordinary frescos and icon paintings in Macedonia and dating from 905AD, the beautiful monastery complex of St. Naum a shade under 30km south of Ohrid and close to the Albanian border. Complete with restaurant, gift shops, boat tours and peacocks running wild in the gardens, the original monastery was founded by St. Naum (c.830 -910), a disciple of Sts. Cyril and Methodius and one of the seven Apostles of the First Bulgarian Empire. Adventurous travellers visiting the monastery [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string SvNaumDesc {
+            get {
+                return ResourceManager.GetString("SvNaumDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Saint Sophia Cathedral.
+        /// </summary>
+        public static string SvSofija {
+            get {
+                return ResourceManager.GetString("SvSofija", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Constructed during the period when the Bulgarian Empire ruled over the town, many experts claim that this massively important and absolutely unmissable church dates as far back at the end of the 9th century. Another Orthodox building that once suffered the fate of being turned into a mosque at the hands of the Ottomans, the beautifully preserved frescoes inside date from between the 11th and 13th centuries. Such is the importance of the building that you’ll find it lurking on the back of the 1000den banknot [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string SvSofijaDesc {
+            get {
+                return ResourceManager.GetString("SvSofijaDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Web site.
         /// </summary>
         public static string Web_site {
@@ -264,6 +381,15 @@ namespace SmestajDanTrebit {
         public static string Zaliv {
             get {
                 return ResourceManager.GetString("Zaliv", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If you’re planning a trip to the fabulous St. Naum Monastery and have the means to stop, this somewhat speculative reconstruction of a prehistoric pile-dwelling settlement jutting out over the lake offers an interesting diversion for 30 minutes or so. Based on recent underwater archaeological work carried out on a settlement dating from around 1000BC, find several woven huts whose designs are based on what the locals are believed to have once lived and worked in. The building next to the site contains a sma [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string ZalivDesc {
+            get {
+                return ResourceManager.GetString("ZalivDesc", resourceCulture);
             }
         }
     }

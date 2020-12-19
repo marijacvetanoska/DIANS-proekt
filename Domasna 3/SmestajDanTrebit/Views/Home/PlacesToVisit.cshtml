@@ -3,11 +3,116 @@
     ViewBag.Title = "PlacesToVisit";
 }
 
-<h2>@Resources.PlacesToVisit</h2>
+@Styles.Render("~/Content/vtora.css")
 
-<ul>
-    <li>@Resources.Kaneo</li>
-    <li>@Resources.Zaliv</li>
-    <li>@Resources.Anticki</li>
-    <li>@Resources.Sv_Naum</li>
-</ul>
+<div id="vtordel">
+    <div id="vtordelh1">
+        <h1>@Resources.PlacesToVisit</h1>
+    </div>
+</div>
+<div id="tretdel">
+    <div id="levo">
+        <h2>@Resources.Kaneo </h2>
+        <p>@Resources.KaneoDesc</p>
+        <p><a href="https://en.wikipedia.org/wiki/Church_of_St._John_at_Kaneo" target="_blank" style="float: right"> <img src="~/Content/images/search.png" alt="wikipedia.org"></a></p>
+    </div>
+    <div id="desno">
+        <img src="~/Content/images/kaneo.png" alt="St Jovan at Kaneo">
+    </div>
+</div>
+<br />
+<br />
+<div id="cetvrtdel">
+    <div id="levo">
+        <img src="~/Content/images/plaosnik.png" alt="St Saint Clement & Pantelejmon">
+    </div>
+    <div id="desno">
+        <h2>@Resources.Plaosnik</h2>
+        <p>@Resources.PlaosnikDesc</p>
+        <p><a href="https://en.wikipedia.org/wiki/Church_of_Saints_Clement_and_Panteleimon" target="_blank" style="float: right"> <img src="~/Content/images/search.png" alt="wikipedia.org"></a> </p>
+
+    </div>
+</div>
+<div id="pettidel">
+    <div id="levo">
+        <h2>@Resources.SvSofija</h2>
+        <p>@Resources.SvSofijaDesc</p>
+        <p><a href="https://en.wikipedia.org/wiki/Church_of_Saint_Sophia,_Ohrid" target="_blank" style="float: right"> <img src="~/Content/images/search.png" alt="wikipedia.org"></a></p>
+    </div>
+    <div id="desno">
+        <img src="~/Content/images/svsofija.png" alt="Saint Sophia Cathedral">
+    </div>
+
+</div>
+<br />
+<br />
+<div id="cetvrtdel">
+    <div id="levo">
+        <img src="~/Content/images/samoliova.png" alt="Samuel’s Fortress">
+    </div>
+    <div id="desno">
+        <h2>@Resources.Samuilova</h2>
+        <p>@Resources.SamiulovaDesc</p>
+        <p><a href="https://en.wikipedia.org/wiki/Samuel%27s_Fortress,_Ohrid" target="_blank" style="float: right"> <img src="~/Content/images/search.png" alt="wikipedia.org"></a></p>
+    </div>
+</div>
+<div id="pettidel">
+    <div id="levo">
+        <h2>@Resources.Anticki</h2>
+        <p>@Resources.AntickiDesc</p>
+        <p><a href="https://en.wikipedia.org/wiki/Ancient_Theatre_of_Ohrid" target="_blank" style="float: right"> <img src="~/Content/images/search.png" alt="wikipedia.org"></a> </p>
+
+    </div>
+    <div id="desno">
+        <img src="~/Content/images/anticki.png" alt="Ancient Theatre">
+    </div>
+</div>
+<br />
+<br />
+<div id="cetvrtdel">
+    <div id="levo">
+        <img src="~/Content/images/svetinaum.png" alt="Saint Naum Monastery">
+    </div>
+    <div id="desno">
+        <h2>@Resources.Sv_Naum</h2>
+        <p>@Resources.SvNaumDesc</p>
+        <p><a href="https://en.wikipedia.org/wiki/Monastery_of_Saint_Naum" target="_blank" style="float: right"> <img src="~/Content/images/search.png" alt="wikipedia.org"></a></p>
+    </div>
+</div>
+<br />
+<br />
+<div id="tretdel">
+    <div id="levo">
+        <h2>@Resources.Zaliv</h2>
+        <p>@Resources.ZalivDesc</p>
+        <p><a href="https://www.discoveringmacedonia.com/2018/bay-of-bones-museum-ohrid/" target="_blank" style="float: right"> <img src="~/Content/images/search.png" alt="wikipedia.org"></a></p>
+    </div>
+    <div id="desno">
+        <img src="~/Content/images/koski.png" alt="Bay of Bones">
+    </div>
+</div>
+<br />
+<br />
+<div id="cetvrtdel">
+    <div id="levo">
+        <img src="~/Content/images/robevci.png" alt="Robevi Family House">
+    </div>
+    <div id="desno">
+        <h2>@Resources.Robevci</h2>
+        <p>@Resources.RobevciDesc</p>
+        <p>Location: Car Samoil 62 <a href="https://en.wikipedia.org/wiki/Robevi_family_house" target="_blank" style="float: right"> <img src="~/Content/images/search.png" alt="wikipedia.org"></a> </p>
+
+    </div>
+</div>
+<br />
+<br />
+<div id="pettidel">
+    <div id="levo">
+        <h2>@Resources.Perivlepta</h2>
+        <p>@Resources.PerivleptaDesc</p>
+        <p><a href="https://whereismacedonia.org/holy-mary-perybleptos-st-clement-ohrid-macedonia/" target="_blank" style="float: right"> <img src="~/Content/images/search.png" alt="wikipedia.org"></a></p>
+    </div>
+    <div id="desno">
+        <img src="~/Content/images/perivlepta.png" alt="Church of the Holy Mary Perybleptos">
+    </div>
+</div>

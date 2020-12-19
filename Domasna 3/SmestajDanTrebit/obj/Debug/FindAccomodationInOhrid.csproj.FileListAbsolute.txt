@@ -551,3 +551,6 @@ C:\Users\Marija\Desktop\DIANS proekt\New folder\Domasna 3\SmestajDanTrebit\bin\S
 C:\Users\Marija\Desktop\DIANS proekt\New folder\Domasna 3\SmestajDanTrebit\obj\Debug\SmestajDanTrebit.Resources.resources
 C:\Users\Marija\Desktop\DIANS proekt\New folder\Domasna 3\SmestajDanTrebit\obj\Debug\SmestajDanTrebit.Resources.mk.resources
 C:\Users\Marija\Desktop\DIANS proekt\New folder\Domasna 3\SmestajDanTrebit\obj\Debug\mk\SmestajDanTrebit.resources.dll
+D:\Find-accomodation-in-Ohrid\Domasna 3\SmestajDanTrebit\bin\GeoCoordinate.NetStandard1.dll
+D:\Find-accomodation-in-Ohrid\Domasna 3\SmestajDanTrebit\bin\System.Device.Portable.dll
+D:\Find-accomodation-in-Ohrid\Domasna 3\SmestajDanTrebit\bin\System.Diagnostics.DiagnosticSource.dll

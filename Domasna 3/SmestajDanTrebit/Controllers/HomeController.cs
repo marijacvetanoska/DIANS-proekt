@@ -13,7 +13,7 @@ namespace SmestajDanTrebit.Controllers
     public class HomeController : Controller
     {
         AccomodationContext db = new AccomodationContext();
-        public ActionResult Index(String Language)
+        public ActionResult Index()
         {
             return View();
         }
@@ -32,7 +32,6 @@ namespace SmestajDanTrebit.Controllers
         {
             return View();
         }
-
         public ActionResult saveToDatabase()
         {
             string filePath = "~/App_Data/hotels&apartments.csv";
