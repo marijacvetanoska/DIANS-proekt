@@ -196,11 +196,20 @@ namespace SmestajDanTrebit {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Map.
+        ///   Looks up a localized string similar to Location.
         /// </summary>
         public static string Map {
             get {
                 return ResourceManager.GetString("Map", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Map.
+        /// </summary>
+        public static string Mapa {
+            get {
+                return ResourceManager.GetString("Mapa", resourceCulture);
             }
         }
         
@@ -358,7 +367,7 @@ namespace SmestajDanTrebit {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Web site.
+        ///   Looks up a localized string similar to See their web site/book here.
         /// </summary>
         public static string Web_site {
             get {

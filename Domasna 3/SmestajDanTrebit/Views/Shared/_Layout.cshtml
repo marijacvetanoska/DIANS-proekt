@@ -8,7 +8,7 @@
 </head>
 <body>
         <div class="container">
-            <div id="intro">
+            <div id="intro" style="height: 70px">
 
                 <ul>
                     <li>
@@ -18,7 +18,7 @@
                         @Html.ActionLink(Resources.FindAccomodation, "FindAccomodation", "Home")
                     </li>
                     <li>
-                        <a href="Map.html">Map</a>
+                        @Html.ActionLink(Resources.Mapa, "Map", "Home")
                     </li>
                     <li>
                         @Html.ActionLink(Resources.PlacesToVisit, "PlacesToVisit", "Home")
@@ -27,7 +27,7 @@
                 <div class="poddrska">
                     @Html.ActionLink("EN", "Change", "Language", new { LanguageAbbrevation = "en" }, null)
                     <a> | </a>
-                    @Html.ActionLink("MK", "Change", "Language", new { LanguageAbbrevation = "mk" }, null) | 
+                    @Html.ActionLink("MK", "Change", "Language", new { LanguageAbbrevation = "mk" }, null) |
                     @using (Html.BeginForm("Search", "Home"))
                     {
                         @Html.TextBox("search")
@@ -36,7 +36,7 @@
                 </div>
             </div>
         </div>
-    <div class="container body-content">
+    <div class="container body-content"  style="margin-left:2em">
         @RenderBody()
         <hr />
     </div>

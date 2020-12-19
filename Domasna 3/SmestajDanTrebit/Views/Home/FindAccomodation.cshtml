@@ -10,22 +10,27 @@
 
 <br />
 
+@using (Html.BeginForm("Search", "Home"))
+{
+    @Html.TextBox("search")
+    <input type="submit" value="@Resources.Search" />
+}
+
+<br />
+
 <div class="row">
 
     @if (Model.Count() > 0)
     {
         <hr />
         <table cellpadding="0" cellspacing="0">
-            <tr>
-                <th>@Resources.Name</th>
-            </tr>
             @foreach (Accomodation accomodation in Model)
             {
                 if (!accomodation.Name.IsEmpty())
                 {
                     var centar = new GeoCoordinatePortable.GeoCoordinate(41.11276, 20.79924);
                     var accomodationCoordinates = new GeoCoordinatePortable.GeoCoordinate(accomodation.Latitude, accomodation.Longitude);
-                    <tr class="Apartment">
+                    <tr class="Apartment" style="height: 40px">
                         <td>
                             @if (HttpContext.Current.Request.Cookies["Language"] == null)
                             {
@@ -39,22 +44,20 @@
                             {
                                 @Html.ActionLink(accomodation.Name, "ShowInfo", new { id = accomodation.Id })
                             }
-                        </td>
-                        <td>
+                            <br />
                             @if (HttpContext.Current.Request.Cookies["Language"] == null)
                             {
-                                <span>@string.Format("Distance to center: {0:F1} km", Convert.ToDouble(centar.GetDistanceTo(accomodationCoordinates) / 1000.0))</span>
+                                <div>@string.Format("Distance to center: {0:F1} km", Convert.ToDouble(centar.GetDistanceTo(accomodationCoordinates) / 1000.0))</div>
                             }
                             else if (HttpContext.Current.Request.Cookies["Language"].Value == "en")
                             {
-                                <span>@string.Format("Distance to center: {0:F1} km", Convert.ToDouble(centar.GetDistanceTo(accomodationCoordinates) / 1000.0))</span>
+                                <div>@string.Format("Distance to center: {0:F1} km", Convert.ToDouble(centar.GetDistanceTo(accomodationCoordinates) / 1000.0))</div>
                                 <!--Mene mi stojt so crveno metodana ama pak rabotat se-Miha-->
                             }
                             else
                             {
-                                <span>@string.Format("Дистанца до центар: {0:F1} km", Convert.ToDouble(centar.GetDistanceTo(accomodationCoordinates) / 1000.0))</span>
+                                <div>@string.Format("Дистанца до центар: {0:F1} km", Convert.ToDouble(centar.GetDistanceTo(accomodationCoordinates) / 1000.0))</div>
                             }
-
                         </td>
                     </tr>
                 }

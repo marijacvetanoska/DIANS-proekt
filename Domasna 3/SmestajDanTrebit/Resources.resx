@@ -163,6 +163,9 @@
     <value>Language</value>
   </data>
   <data name="Map" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Mapa" xml:space="preserve">
     <value>Map</value>
   </data>
   <data name="Name" xml:space="preserve">
@@ -217,7 +220,7 @@
     <value>Constructed during the period when the Bulgarian Empire ruled over the town, many experts claim that this massively important and absolutely unmissable church dates as far back at the end of the 9th century. Another Orthodox building that once suffered the fate of being turned into a mosque at the hands of the Ottomans, the beautifully preserved frescoes inside date from between the 11th and 13th centuries. Such is the importance of the building that you’ll find it lurking on the back of the 1000den banknote.</value>
   </data>
   <data name="Web site" xml:space="preserve">
-    <value>Web site</value>
+    <value>See their web site/book here</value>
   </data>
   <data name="Welcome to our page" xml:space="preserve">
     <value>Welcome to our page!</value>
