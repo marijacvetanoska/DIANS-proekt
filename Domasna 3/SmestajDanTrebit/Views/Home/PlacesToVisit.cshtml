@@ -3,11 +3,48 @@
     ViewBag.Title = "PlacesToVisit";
 }
 
-<h2>@Resources.PlacesToVisit</h2>
+@Styles.Render("~/Content/vtora.css")
 
-<ul>
-    <li>@Resources.Kaneo</li>
-    <li>@Resources.Zaliv</li>
-    <li>@Resources.Anticki</li>
-    <li>@Resources.Sv_Naum</li>
-</ul>
+<div id="vtordel">
+    <div id="vtordelh1">
+        <h1>@Resources.PlacesToVisit</h1>
+    </div>
+    <div id="pagination">
+        <a href="Vtora.html">&laquo;</a>
+        <a class="active" href="Vtora.html">1</a>
+        <a href="Treta.html">2</a>
+        <a href="Cetvrta.html">3</a>
+        <a href="Treta.html">&raquo;</a>
+    </div>
+</div>
+<div id="tretdel">
+    <div id="levo">
+        <h2>Church of St Jovan at Kaneo </h2>
+        <p>Fusing together Byzantine and Armenian architectural church styles and almost as famous for its location as for the building itself, the date of construction of this particular masterpiece has been lost to history, although surviving documents suggest it’s been standing on the edge of the cliff overlooking the lake since at least 1447. The unusual exterior stone carvings create a good excuse to follow the track around the water to find the place and the frescos painted on the dome, hidden until 1964, are well worth the pain in the neck you’ll get whilst staring at them in wonder. &nbsp;</p>
+        <p>Location: Kaneo Plaoshnik Pateka <a href="https://en.wikipedia.org/wiki/Church_of_St._John_at_Kaneo" target="_blank" style="float: right"> <img src="~/Content/images/search.png" alt="wikipedia.org"></a></p>
+    </div>
+    <div id="desno">
+        <img src="~/Content/images/kaneo.png" alt="St Jovan at Kaneo">
+    </div>
+</div>
+<div id="cetvrtdel">
+    <div id="levo">
+        <img src="~/Content/images/plaosnik.png" alt="St Saint Clement & Pantelejmon">
+    </div>
+    <div id="desno">
+        <h2>Church of Saint Clement & Pantelejmon</h2>
+        <p>A Byzantine beauty whose precise origins are shrouded in mystery and that’s thought to have been built on the site where the Glagolitic script, the forerunner to today’s Cyrillic script, was created and that some people say was designed by St. Clement of Ohrid (840-916) himself. Briefly converted into a mosque by the Ottomans during the 15th century, unlike many similar churches the magic surrounding this place isn’t so much about its architectural splendour or what treats lie waiting inside but has much more to do with its associations with several renowned figures, a fact that makes it one of the holiest sites in the entire region.</p>
+        <p>Location: Kuzman Kapidan <a href="https://en.wikipedia.org/wiki/Church_of_Saints_Clement_and_Panteleimon" target="_blank" style="float: right"> <img src="~/Content/images/search.png" alt="wikipedia.org"></a> </p>
+
+    </div>
+</div>
+<div id="pettidel">
+    <div id="levo">
+        <h2>Saint Sophia Cathedral </h2>
+        <p>Constructed during the period when the Bulgarian Empire ruled over the town, many experts claim that this massively important and absolutely unmissable church dates as far back at the end of the 9th century. Another Orthodox building that once suffered the fate of being turned into a mosque at the hands of the Ottomans, the beautifully preserved frescoes inside date from between the 11th and 13th centuries. Such is the importance of the building that you’ll find it lurking on the back of the 1000den banknote.&nbsp;</p>
+        <p>Location: Car Samoil <a href="https://en.wikipedia.org/wiki/Church_of_Saint_Sophia,_Ohrid" target="_blank" style="float: right"> <img src="~/Content/images/search.png" alt="wikipedia.org"></a></p>
+    </div>
+    <div id="desno">
+        <img src="~/Content/images/svsofija.png" alt="Saint Sophia Cathedral">
+    </div>
+</div>
