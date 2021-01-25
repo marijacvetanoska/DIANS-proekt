@@ -16,6 +16,7 @@ namespace SmestajDanTrebit.Controllers
             return View();
         }
 
+        //funkcijata se koristi za promena na jazikot na stranata
         public ActionResult Change(String LanguageAbbrevation)
         {
             if(LanguageAbbrevation != null)

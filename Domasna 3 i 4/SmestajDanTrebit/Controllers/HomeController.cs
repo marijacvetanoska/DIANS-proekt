@@ -7,6 +7,7 @@ using System.IO;
 using SmestajDanTrebit.Models;
 using System.Threading;
 using System.Globalization;
+using System.Data.Entity;
 
 namespace SmestajDanTrebit.Controllers
 {
@@ -18,9 +19,15 @@ namespace SmestajDanTrebit.Controllers
             return View();
         }
 
+        //Search funkcija koja gi prebaruva hotelite i apartmanite od bazata
         public ActionResult Search(string search)
         {
-            return View("FindAccomodation", db.accomodations.Where(x => x.Name.ToLower().ToString().Contains(search.ToLower()) || x.InternationalName.ToLower().ToString().Contains(search.ToLower())));
+            return View("FindAccomodation", searchAccomodation(search));
+        }
+
+        private DbSet<Accomodation> searchAccomodation(string search)
+        {
+            return (DbSet<Accomodation>)db.accomodations.Where(x => x.Name.ToLower().ToString().Contains(search.ToLower()) || x.InternationalName.ToLower().ToString().Contains(search.ToLower()));
         }
 
         public ActionResult FindAccomodation()
@@ -32,6 +39,8 @@ namespace SmestajDanTrebit.Controllers
         {
             return View();
         }
+        //Ovaa funkcija ja povikavme samo ednas na pocetokot za da se popolni
+        //bazata so podatoci
         public ActionResult saveToDatabase()
         {
             string filePath = "~/App_Data/hotels&apartments.csv";
